@@ -14,6 +14,8 @@ Le projet contient:
 ## Utilisation
 
 Pour jouer au jeu, il vous suffit d'exécuter un des lanceurs **.sh**.
+Pour la version graphique, malheureusement l'un des fichiers javafx est trop lourd et ne passe pas sur github,  
+il faut alors télécharger javafx-17 et décompresser l'archive puis remplacer le dossier 'lib' par le dossier 'lib' obtenu en décompressant l'archive.
 
 ## Auteurs du projet
 
