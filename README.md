@@ -14,7 +14,7 @@ Le projet contient:
 ## Utilisation
 
 Pour jouer au jeu, il vous suffit d'exécuter un des lanceurs **.sh**.  
-***Attention! Il est impératif de se placer dans le répertoire **version_graphique** ou **version_terminal** selon la version souhaitée du jeu avant d'exécuter le lanceur.  
+***Attention! Il est impératif de se placer dans le répertoire **version_graphique** ou **version_terminal** selon la version souhaitée du jeu avant d'exécuter le lanceur.***  
 Pour la version graphique, malheureusement l'un des fichiers javafx est trop lourd et ne passe pas sur github, le script télécharge alors javafx dans le bon répertoire pour l'exécution.
 
 ## Auteurs du projet
