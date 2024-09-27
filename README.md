@@ -2,17 +2,21 @@
 
 ## Description
 
-Dans le cadre d'un projet universitaire dans un groupe de 5 étudiants, j'ai développé un jeu de bataille navale.
+Dans le cadre d'un projet universitaire dans un groupe de 5 étudiants, j'ai développé un jeu de bataille navale.  
+Il y a une version terminal développé avec Java et une version graphique avec JavaFX.
 
 ## Architecture du projet
+Le projet contient un dossier pour la version terminal et un dossier pour la version graphique.  
 
-Le projet contient:
-- un dssoier **src** contenant les sources du jeu
+Chaque dossier contient:
+- un dossier **src** contenant les sources du jeu
 - un dossier **out** contenant le jeu compilé
 - un dossier **test** contenant les tests des différentes méthodes
+- un lanceur pour démarrer le jeu
 
 ## Utilisation
 
+***Jeu compatible uniquement avec Linux ! Une version Java 11> est requise pour lancer le jeu.***
 Pour jouer au jeu, il vous suffit d'exécuter un des lanceurs **.sh**.  
 ***Attention! Il est impératif de se placer dans le répertoire **version_graphique** ou **version_terminal** selon la version souhaitée du jeu avant d'exécuter le lanceur.***  
 Pour la version graphique, malheureusement l'un des fichiers javafx est trop lourd et ne passe pas sur github, le script télécharge alors javafx dans le bon répertoire pour l'exécution.
