@@ -37,4 +37,4 @@ Le jeu peut être utilisé par n'importe qui sans usage commercial.
 
 ## Statut du projet
 
-Le projet est actuellement terminé. Il s'est déroulé durant le mois de Mai et d'Août 2024.
+Le projet est actuellement terminé. Il s'est déroulé d'avril à début juin 2024.
