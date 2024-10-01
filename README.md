@@ -20,7 +20,7 @@ cd Bataille-navale
 2. Exécuter le jeu
     - Version terminal
       ```bash
-      cd version_graphique
+      cd version_terminal
       /bin/bash lanceur_terminal.sh
       # ou /bin/bash lanceur_terminal_interactif.sh
       ```
