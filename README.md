@@ -1,40 +1,50 @@
-# Jeu de bataille navale
+# Bataille navale
 
-## Description
+Le projet est un jeu de bataille navale développé en Java et JavaFX dans une version terminale et graphique dans le cadre d'un projet universitaire dans un groupe de 5 étudiants.
 
-Dans le cadre d'un projet universitaire dans un groupe de 5 étudiants, j'ai développé un jeu de bataille navale.  
-Il y a une version terminal développé avec Java et une version graphique avec JavaFX.
+## Sommaire
 
-## Architecture du projet
-Le projet contient un dossier pour la version terminal et un dossier pour la version graphique.  
+1. [Instalation](#installation)
+2. [Utilisation](#utilisation)
+3. [Auteurs](#auteurs)
+4. [Statut du projet](#statut-du-projet)
 
-Chaque dossier contient:
-- un dossier **src** contenant les sources du jeu
-- un dossier **out** contenant le jeu compilé
-- un dossier **test** contenant les tests des différentes méthodes
-- un lanceur pour démarrer le jeu
+## Installation
+
+1. Récupérer le projet
+```bash
+git clone https://github.com/nponthie-iut90/Bataille-navale
+cd Bataille-navale
+```
+
+2. Exécuter le jeu
+    - Version terminal
+      ```bash
+      cd version_graphique
+      /bin/bash lanceur_terminal.sh
+      # ou /bin/bash lanceur_terminal_interactif.sh
+      ```
+    - Version graphique
+      *Pour la version graphique, malheureusement l'un des fichiers javafx est trop lourd et ne passe pas sur github, le script télécharge alors javafx dans le bon répertoire pour l'exécution.*
+      ```bash
+      cd version_graphique
+      /bin/bash lanceur_graphique.sh
+      ```
 
 ## Utilisation
 
-***Jeu compatible uniquement avec Linux ! Une version Java 11> est requise pour lancer le jeu.***
-Pour jouer au jeu, il vous suffit d'exécuter un des lanceurs **.sh**.  
-***Attention! Il est impératif de se placer dans le répertoire **version_graphique** ou **version_terminal** selon la version souhaitée du jeu avant d'exécuter le lanceur.***  
-Pour la version graphique, malheureusement l'un des fichiers javafx est trop lourd et ne passe pas sur github, le script télécharge alors javafx dans le bon répertoire pour l'exécution.
+En exécutant le jeu comme mentionné plus haut, vous pourrez alors jouer à une partie de bataille navale face à un bot ou à 2 joueurs, toutes les instructions sont disponibles dans le jeu.
 
-## Auteurs du projet
+## Auteurs
 
-- Référent du projet : Nathan PONTHIEU
-    - Référent du développement du jeu : Nathan PONTHIEU
-        - Dévelopeurs du jeu : Nathan PONTHIEU
-    - Référents des tests : Romain ARNOUX
-        - Développeurs des tests : Romain ARNOUX
-    - Rréférent des bots : Arthur AIGUBELLE
-        - Développeurs des bots : Arthur AIGUBELLE, Luan ALIU, Mickaël MARCO, Nathan PONTHIEU
-
-## Licence
-
-Le jeu peut être utilisé par n'importe qui sans usage commercial.
+- Référent du projet : [Nathan PONTHIEU](https://github.com/nponthie-iut90)
+    - Référent du développement du jeu : [Nathan PONTHIEU](https://github.com/nponthie-iut90)
+        - Dévelopeurs du jeu : [Nathan PONTHIEU](https://github.com/nponthie-iut90)
+    - Référents des tests : [Romain ARNOUX](https://github.com/rarnoux4-iut90)
+        - Développeurs des tests : [Romain ARNOUX](https://github.com/rarnoux4-iut90)
+    - Rréférent des bots : [Arthur AIGUBELLE](https://github.com/aaigubel-iut90)
+        - Développeurs des bots : [Arthur AIGUBELLE](https://github.com/aaigubel-iut90), [Luan ALIU](https://github.com/aliuluan), [Nathan PONTHIEU](https://github.com/nponthie-iut90), [Mickaël MARCO](https://github.com/mmarco-iut90)
 
 ## Statut du projet
 
-Le projet est actuellement terminé. Il s'est déroulé d'avril à début juin 2024.
+Le projet est terminé. Il s'est déroulé d'avril à juin 2024.
