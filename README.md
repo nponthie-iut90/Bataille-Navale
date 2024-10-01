@@ -24,7 +24,7 @@ cd Bataille-navale
       /bin/bash lanceur_terminal.sh
       # ou /bin/bash lanceur_terminal_interactif.sh
       ```
-    - Version graphique
+    - Version graphique  
       *Pour la version graphique, malheureusement l'un des fichiers javafx est trop lourd et ne passe pas sur github, le script télécharge alors javafx dans le bon répertoire pour l'exécution.*
       ```bash
       cd version_graphique
